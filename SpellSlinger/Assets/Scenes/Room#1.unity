@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootingPoint: {fileID: 2122447745}
-  bulletPrefab: {fileID: 9123034285356843731, guid: 87a7abc45e45cad4f9124b6caaafd453, type: 3}
+  bulletPrefab: {fileID: 7586857787929724228, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
 --- !u!114 &741455946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,6 +569,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311415084}
   m_CullTransparentMesh: 1
+--- !u!1001 &1396098136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9880614
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9191069
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929386851762068708, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123034285356843731, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
+      propertyPath: m_Name
+      value: Fire Spell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef71f46194b11b745a8875ce57f516f4, type: 3}
 --- !u!1 &1870194983
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,6 +816,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87a7abc45e45cad4f9124b6caaafd453, type: 3}
+--- !u!1001 &7484833691778862427
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4434457
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4405812
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041127853498687684, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586857787929724228, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
+      propertyPath: m_Name
+      value: Bolt Spell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96c671685b5989d4d81749474cfae16b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -767,3 +881,5 @@ SceneRoots:
   - {fileID: 705836213}
   - {fileID: 741455948}
   - {fileID: 7167475352359631395}
+  - {fileID: 1396098136}
+  - {fileID: 7484833691778862427}

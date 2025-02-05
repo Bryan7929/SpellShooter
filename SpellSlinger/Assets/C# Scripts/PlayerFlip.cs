@@ -7,7 +7,13 @@ using JetBrains.Annotations;
 
 public class PlayerFlip : MonoBehaviour
 {
+    /*
+[SerializeField] private int RotateRight = 0;
+[SerializeField] private int RotateLeft = 0;
 
+[SerializeField] private int RotateUp = 0;
+[SerializeField] private int RotateDown = 0;
+*/
     void Start(){
     }
 
@@ -16,13 +22,21 @@ public class PlayerFlip : MonoBehaviour
     }
 
     void Flip(){
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+        if (Keyboard.current.rightArrowKey.wasPressedThisFrame) //Right move
         {
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            transform.eulerAngles = new Vector3(0, 0, 270);
         }
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+        if (Keyboard.current.leftArrowKey.wasPressedThisFrame) // Left move
         {
-            transform.eulerAngles = new Vector3(0, 180, 0);
+            transform.eulerAngles = new Vector3(0, 0, 90);
+        }
+            if (Keyboard.current.upArrowKey.wasPressedThisFrame) // Up move
+        {
+            transform.eulerAngles = new Vector3(0, 0, 360);
+        }
+            if (Keyboard.current.downArrowKey.wasPressedThisFrame) // Down move
+        {
+            transform.eulerAngles = new Vector3(0, 0, 180);
         }
     }
 

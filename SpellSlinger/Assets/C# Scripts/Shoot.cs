@@ -1,4 +1,4 @@
-using System.Collections;
+/*using Sysm.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,7 +20,27 @@ public class Shoot : MonoBehaviour
     {
         if(Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+            Instantiate(bulletPrefab, shootingPoint.position, shootingPoint.rotation);
+        }
+    }
+}
+*/
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class Shoot : MonoBehaviour
+{
+    public Transform shootingPoint;
+    public GameObject bulletPrefab;
+
+    void Update()
+    {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+Instantiate(bulletPrefab, shootingPoint.position, shootingPoint.rotation * Quaternion.Euler(0, 0, 90));
         }
     }
 }

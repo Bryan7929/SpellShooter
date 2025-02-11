@@ -22,12 +22,6 @@ public class PlayerMover : MonoBehaviour
 
     void Update()
     {
-        /*
-        speedX = Input.GetAxisRaw("Horizontal") * movSpeed;
-        speedY = Input.GetAxisRaw("Vertical") * movSpeed;
-        rb.linearVelocity = new Vector2(speedX, speedY);
-        //speedY = Input.GetAxisRaw("Vertical") * movSpeed * 0;
-        */
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             MoveRight();
@@ -68,19 +62,6 @@ public class PlayerMover : MonoBehaviour
             rb.linearVelocity = new Vector2(speedX, speedY);
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public void MoveLeft()
     {

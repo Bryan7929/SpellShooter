@@ -8,10 +8,6 @@ public class PlayerMover : MonoBehaviour
 {
     public float movSpeed;
     float speedX, speedY;
-
-   //bool movingY = false;
-   //bool movingX = false;
-
     Rigidbody2D rb;
 
 
@@ -22,6 +18,7 @@ public class PlayerMover : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             MoveRight();
@@ -98,8 +95,6 @@ public class PlayerMover : MonoBehaviour
         speedY = Input.GetAxisRaw("Vertical") * movSpeed;
         rb.linearVelocity = new Vector2(speedX, speedY);
         */
-
-
         /*
         if (Input.GetKeyDown(KeyCode.RightArrow)||Input.GetKeyDown(KeyCode.LeftArrow))
         {

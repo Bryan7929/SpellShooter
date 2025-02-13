@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Baddy1
   - Spell
+  - Wall
   layers:
   - Default
   - TransparentFX
